@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+    <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+        <Account>
+            <AccountType>email</AccountType>
+            <Action>settings</Action>
+            <Protocol>
+                <Type>IMAP</Type>
+                <Server>mail.nasqueron.org</Server>
+                <Port>993</Port>
+                <SPA>off</SPA>
+                <Encryption>SSL</Encryption>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+                <DomainRequired>on</DomainRequired>
+            </Protocol>
+            <Protocol>
+                <Type>SMTP</Type>
+                <Server>mail.nasqueron.org</Server>
+                <Port>587</Port>
+                <SPA>off</SPA>
+                <SSL>off</SSL>
+                <Encryption>TLS</Encryption>
+                <AuthRequired>on</AuthRequired>
+                <DomainRequired>on</DomainRequired>
+            </Protocol>
+        </Account>
+    </Response>
+</Autodiscover>

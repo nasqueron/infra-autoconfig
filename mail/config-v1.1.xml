@@ -29,4 +29,12 @@
       <descr lang="fr">Référence concernant le serveur mail</descr>
     </documentation>
   </emailProvider>
+  <webMail>
+     <loginPage url="https://mail.nasqueron.org/" />
+     <loginPageInfo url="https://mail.nasqueron.org/">
+       <username>%EMAILADDRESS%</username>
+       <usernameField id="rcmloginuser" name="user" />
+       <passwordField id="rcmloginpwd" name="_pass" />	
+     </loginPageInfo>
+  </webMail>
 </clientConfig>

@@ -25,7 +25,7 @@
       <username>%EMAILADDRESS%</username>
     </outgoingServer>
     <documentation url="https://agora.nasqueron.org/Mail">
-      <descr lang="de">Mail reference</descr>
+      <descr lang="en">Mail reference</descr>
       <descr lang="fr">Référence concernant le serveur mail</descr>
     </documentation>
   </emailProvider>
